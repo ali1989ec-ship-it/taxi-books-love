@@ -35,7 +35,7 @@ npm run preview
 
 This repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml` that builds the app from `app/` and uploads `app/dist` to GitHub Pages on pushes to `main`. The Vite base path is set for `https://ali1989ec-ship-it.github.io/taxi-books-love/`.
 
-Pages must be enabled with **GitHub Actions** as the source. GitHub currently blocks Pages for this private repository on the account's plan. Making the repository public would allow Pages, but it would expose the source code and publish a publicly accessible app. The live URL must be opened and tested before calling deployment complete.
+Pages uses **GitHub Actions** as the publishing source. Check the workflow run after each push and verify the live app before sharing its link.
 
 ## Reference screenshots
 
