@@ -33,6 +33,8 @@ npm run preview
 
 ## Publish with GitHub Pages
 
+**Live app:** https://ali1989ec-ship-it.github.io/taxi-books-love/
+
 This repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml` that builds the app from `app/` and uploads `app/dist` to GitHub Pages on pushes to `main`. The Vite base path is set for `https://ali1989ec-ship-it.github.io/taxi-books-love/`.
 
 Pages uses **GitHub Actions** as the publishing source. Check the workflow run after each push and verify the live app before sharing its link.
