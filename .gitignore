@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+reference/app-store/*.jpg
+reference/app-store/iphone/
+reference/app-store/ipad/
