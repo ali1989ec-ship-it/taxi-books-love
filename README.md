@@ -31,6 +31,12 @@ npm run build
 npm run preview
 ```
 
+## Publish with GitHub Pages
+
+This repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml` that builds the app from `app/` and uploads `app/dist` to GitHub Pages on pushes to `main`. The Vite base path is set for `https://ali1989ec-ship-it.github.io/taxi-books-love/`.
+
+Pages must be enabled with **GitHub Actions** as the source. GitHub currently blocks Pages for this private repository on the account's plan. Making the repository public would allow Pages, but it would expose the source code and publish a publicly accessible app. The live URL must be opened and tested before calling deployment complete.
+
 ## Reference screenshots
 
 The App Store screenshots were downloaded to `reference/app-store/` locally at the user's request. They are intentionally ignored by Git and are not part of this repository. Source: https://apps.apple.com/gb/app/taxibooks/id1543530927
